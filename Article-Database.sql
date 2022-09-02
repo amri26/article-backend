@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 02, 2022 at 04:13 PM
+-- Generation Time: Sep 02, 2022 at 05:40 PM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.0.19
 
@@ -55,7 +55,8 @@ CREATE TABLE `auth_user` (
 --
 
 INSERT INTO `auth_user` (`id`, `username`, `password`, `created_at`, `updated_at`) VALUES
-(1, 'Amri', '$2b$10$iXbErVt06.ij23PJQspqGu52x860HL5YKBtIUxiyT68yBMkCQ2Ya2', '2022-09-02 14:06:47', '2022-09-02 14:06:47');
+(1, 'Amri', '$2b$10$iXbErVt06.ij23PJQspqGu52x860HL5YKBtIUxiyT68yBMkCQ2Ya2', '2022-09-02 14:06:47', '2022-09-02 14:06:47'),
+(2, 'Ifan', '$2b$10$zcK2ZoQPHa49k1aORVs8guAqbD1NJD6xTz7Y28qjA0OlBnQdbc8ne', '2022-09-02 15:17:27', '2022-09-02 15:17:27');
 
 -- --------------------------------------------------------
 
@@ -105,19 +106,19 @@ ALTER TABLE `comment`
 -- AUTO_INCREMENT for table `article`
 --
 ALTER TABLE `article`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT for table `auth_user`
 --
 ALTER TABLE `auth_user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `comment`
 --
 ALTER TABLE `comment`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- Constraints for dumped tables
